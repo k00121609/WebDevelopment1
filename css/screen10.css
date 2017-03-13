@@ -1,0 +1,139 @@
+
+#page{background-color: black; font-family: sans-serif;}
+
+
+
+.googlesearch{ background-color: beige;}
+.search .border{ width: 45%; margin-left: 30px;  color: blue; font-weight: 600; }
+
+h1 {color: white; padding-left: 30px;}
+
+.midpage p{ color: pink; font-size: 0.9em;}
+
+.login a {text-decoration: none;}
+
+.nav {
+	color: black;
+	background-color: lightblue;
+	height: 60px;
+	display: inline-block;
+	margin-left: 30px;
+	width: 90%;
+	
+
+}
+
+.nav li {
+	float: right;
+	list-style-type: none;
+	position: relative;
+}
+
+.nav li a {
+	font-size: 16px; 
+	color: white;
+	display: block;
+	line-height: 60px;
+	padding: 0 26px;
+	text-decoration: none;
+	border-left: 1px solid blue;
+	font-family:sans-serif;
+	text-shadow: gray;
+}
+.nav li a:hover {
+	background-color: blue;
+}
+
+#settings a {
+	padding: 18px;
+	height: 24px;
+	font-size: 10px;
+	line-height: 24px;
+}
+
+
+#settings a {
+	padding: 18px;
+	height: 24px;
+	font-size: 10px;
+	line-height: 24px;
+}
+
+#search {
+	width: 357px;
+	margin: 4px;
+}
+#search_text{
+	width: 297px;
+	padding: 15px 0 15px 20px;
+	font-size: 16px;
+	font-family:  sans-serif;
+	border: 0 none;
+	height: 52px;
+	margin-right: 0;
+	color: white;
+	outline: none;
+	background-color: green;
+	float: left;
+	box-sizing: border-box;
+	transition: all 0.15s;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+	color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color: white;
+}
+#search_text:focus {
+	background-color: green;
+}
+#search_button {
+	border: 0 none;
+	width: 60px; 
+	float: left;
+	padding: 0;
+	text-align: center;
+	height: 52px;
+	cursor: pointer;
+}
+
+
+#options a{
+	border-left: 0 none;
+}
+#options>a {
+	
+	
+
+	background-position: 85% center;
+	background-repeat: no-repeat;
+	padding-right: 42px;
+}
+.subnav {
+	visibility: hidden;
+	position: absolute;
+	top: 110%;
+	right: 0;
+	width: 200px;
+	height: auto;
+	opacity: 0;
+	transition: all 0.1s;
+	background-color: black;
+}
+.subnav li {
+	float: none;
+}
+.subnav li a {
+	border-bottom: 1px solid black;
+}
+#options:hover .subnav {
+	visibility: visible;
+	top: 100%;
+	opacity: 1;
+}

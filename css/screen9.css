@@ -1,0 +1,605 @@
+
+
+body{
+   font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 250; color: black;}
+
+#page { background-color: black; max-width: 1200px; margin: 0 auto; position: relative;}
+
+/*Text*/
+
+/*h1 { color: red; margin: 0 0 1em 0; font-size:3.0em; font-weight: 620; color: black;}*/
+h2 { color: green; font-size:1.4em; font-weight: 620;}
+h3 { color: black; font-size:1.3em; font-weight: 620; margin: 0 0 0.5em 0;}
+h4 { color: black;  font-size:1em; font-weight: 620;}
+h5 { color: pink;  font-size:1em; font-weight: 620;}
+
+p {color:black;}
+a { color:black; padding-left: 30px 40px 30px 40px;}
+a:visited { color:none;}
+
+
+a.btn {color:black; font-size: 1.2em; font-weight: 700; text-decoration: none; border: 2px solid blue; padding: 6px 20px 6px 20px; background-color: lightcoral;}
+a.btn:hover { background-color: white; text-decoration: underline;}
+
+/*Header*/
+
+header { height:150px; background-color: black; min-width: 380px; position: relative;}
+
+header a.LOGO {color: white; font-size: 5em; padding: 20px 0px 0px 20px; width: 800px; height: 100px; text-decoration: none; display: block; position: absolute;}
+
+
+header .loginIn { left: 75%; max-width: 20%; font-size: 1.2em; padding: 50px 20px 0px 0px;  position: relative;}
+
+
+
+header .lottoimg {z-index: 3; padding: 0px 0px 0px 30px; background: no-repeat left top; position: relative;}
+
+header .intro {font-size: 2em; margin: -330px 0px 0px 250px; position: relative;}
+
+header .star { padding: 0px 20px 0px 0px; background: url(../images/4images.jpg) no-repeat 0px 0px; min-height:200px; position: relative;}
+
+header div.searchbar {float:right; padding-right: 30px; padding-top: 85px;}
+/*Section All*/
+
+
+section { padding: 0px 0px 0px 0px;}
+section::after { iframe:''; display: block; clear: both;}
+section::after { art1:''; display: block; clear: both;}
+section::after { content:''; display: block; clear: both;}
+
+
+
+/*Section Main*/
+section.main {background-color: beige; height: 300px; margin: 350px 0px 30px 0px; padding: 20px 0px 0px 0px; min-width: 380px; position: relative;}
+
+section.main aside { width: 33%; float: right; text-align: center;}
+
+section.main aside .contentshoes { margin: 15px; background: no-repeat center top; background-size: 90px 90px; padding-top: 130px; }
+
+section.main aside .contentholiday { margin: 15px; background: no-repeat center top; background-size: 90px 90px; padding-top: 130px;}
+
+
+section.main aside .contentwatch { margin: 15px; background: no-repeat center top; background-size: 90px 90px; padding-top: 130px; }
+
+section.main aside h3 a {color: black; text-decoration: none;}
+section.main aside h3 a:hover {text-decoration: underline;}
+section.main aside .contentshoes{background-image: url(../images/Shoes_3.png);}
+section.main aside .contentholiday{background-image: url(../images/Table%20and%20view.PNG);}
+section.main aside .contentwatch{background-image: url(../images/Vintage%20pink%20Rolex.PNG);}
+
+
+
+
+/*Section-BLOCK3_1*/
+
+section.BLOCK3_1 {background-color: beige; padding: 40px 30px 40px 30px; min-width: 380px; }
+
+
+section.BLOCK3_1 aside article .img1 {  width: 55%;  float: right; background: url(../images/Euromill3_1.jpg) no-repeat 0px 5px; min-height:300px; width: 380px;position: relative; }
+
+section.BLOCK3_1 aside article .art h2 { color: green; text-decoration: none;}
+section.BLOCK3_1 aside article .art h4 { color: black; text-decoration: none;}
+section.BLOCK3_1 aside article .art p { color: black; text-decoration: none; float:clear;}
+
+
+
+
+/*Section-BLOCK4*/
+
+section.BLOCK4 { background-color: beige; padding: 20px 30px 40px 50px; min-width: 380px; position: relative;}
+section.BLOCK4 aside { width: 19%; float: right;}
+section.BLOCK4 aside .content { padding: 30px 20px 30px 20px;}
+section.BLOCK4 aside .content img { display: block; width: 72%;}
+section.BLOCK4 aside .content h4 {color: black; font-weight: 700;}
+section.BLOCK4 aside .content a { display: inline-block; color: lightcoral; font-weight:700;}
+
+
+   /*Navigation1*/
+
+nav {
+	margin-top: 300px;
+	font-size: 1.3em;
+    background-color: none;
+    position: absolute;
+    top: 0px; left: 0px;
+    padding: 50px 0 0 0;
+    width: 100%;
+}
+
+nav::after { content:''; display: block; clear: both;}
+
+nav ul { list-style: none; margin: 0; padding: 0px; }
+
+nav ul li:hover { background-color: black}
+nav ul li:hover > ul { display: block;}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+    position: relative;
+}
+
+nav ul li a:visited { color: white;}
+
+nav ul li a:hover { background-color: blue;}
+
+nav ul ul { position: absolute; top: 100%; background-color: black; display: none; }
+
+nav ul ul li { position: relative;}
+
+nav ul ul ul {left: 100%; top: 0px; }
+
+
+
+
+
+/*Navigation 2 top-level*/
+/* top-level */
+nav > ul { padding-left: 200px; }
+nav > ul > li { float: left;  }
+nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px;}
+
+nav a[aria-haspopup="true"]::after {
+    content: '';
+    display: block; width: 0px; height: 0px;
+    position: absolute;
+    top: 16px; right: 15px; 
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #fff;
+}
+
+nav > ul > li > a[aria-haspopup="true"]::after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #fff;
+    left: 20px; right: auto;
+    bottom: 6px; top: auto;
+    
+}
+
+/* Footer */
+footer {font-size: .8em; marjin: 40px; color:lightgray; }
+footer .content { display:inline;}
+
+
+
+
+
+
+
+                                        /*Media Queries*/
+
+
+        /*media query 1 at 1200px*/
+
+@media screen and  (max-width:1200px){
+	
+	 section.BLOCK3_1 aside article { width: 100%;  text-align: left;}
+	
+	section.BLOCK3_1 aside article .img1{ width: 45%;  min-height:300px; width: 380px; padding: 30px 30px 30px 30px;}
+	<br>
+    section.BLOCK3_1 aside article p{ color: black; text-decoration: none; float: left; }
+	
+	
+	
+    
+	
+
+        /*media query 2 at 980px*/
+@media screen and  (max-width:1200px){
+	
+	header a.LOGO {font-size: 4em; height: 36px;}
+	
+	/*block3-1*/
+	 section.BLOCK3_1 aside article { width: 100%; float: none; text-align: left; }
+    
+    section.BLOCK3_1 aside article .img1 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 500px 356px;
+    }
+	
+	
+    
+  footer::after { content:''; display: block; clear: both;}
+	
+/*header*/
+
+@media screen and  (max-width: 760px){
+  
+    h2 { font-size: 1.4em; }
+    h3 { font-size: 1.1em; }
+    a.btn {font-size: 1em; }
+    section.atmosphere .iframe{ padding-right: 700px;} 
+    
+    /* Header */
+    
+    header a.lOGO { background-color: black; font-size: 4em; width: 145px; height: 60px; }
+	header .intro { font-size: 1.2em;}
+    header .loginIn { font-size: .7em; padding: 95px 30px 0px 0px;}
+	
+	header a.LOGO {font-size: 3em; height: 36px;}
+	
+    /* Section - Main */
+ section.main aside { width: 100%; float; none; text-align: left;}
+section.main aside .content { margin: 8px 20px 8px 0; padding: 5px 0px 10px 75px; background-size: 50px 50px; background-position: 20px 5px;}
+p{ font-size: .65em; padding: 0px 30px 0px 0px;}	
+
+	/*block3-1*/
+	 section.BLOCK3_1 aside article { width: 100%; float; none; text-align: left; }
+    
+  
+    
+    
+    /* Section - Block4*/
+    
+    section.BLOCK4 aside div.content img {width: 85%;}
+    
+    
+    /* Navigation*/
+    nav {padding-top: 80px;}
+    nav > ul {padding-left: 10px;}
+}
+
+
+
+
+@media screen and (max-width: 625px){
+
+    h3 {margin-bottom: 0px; }
+    a.btn { font-size: .9em; }
+
+    /* Header */ 
+   
+
+    
+	header a.LOGO {font-size: 3em; height: 36px;}
+     
+
+
+    
+    /*Section-Main*/
+    section.main aside { width: 100%; float; none; text-align: left; }
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    p{ font-size: .55em; padding: 0px 30px 0px 0px;}
+	
+		
+	/*Block3_1*/
+	 section.BLOCK3_1 aside article { width: 100%; float; none; text-align: left;}
+    
+    section.BLOCK3_1 aside article .art1 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    
+	
+       /*Section-Athmosphere*/
+    
+
+	
+	    section.main aside { width: 100%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+	
+	/*Block3_1*/
+	 section.BLOCK3_1 aside article { width: 100%; float; none; text-align: left;}
+    
+    section.BLOCK3_1 aside article .art1 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    
+    /*Section-Block4*/
+    
+    section.BLOCK4 aside { width: 100%; float: none; margin: 0; position: relative;}
+    { padding: 20px 20px 20px 150px; }
+    
+    section.BLOCK4 aside div.content p { font-size: .9em;}
+    
+    section.BLOCK4 aside div.content img {
+        display: inline-block;
+        width: 125px;
+        position: absolute;
+        top: 30px; left: 0px;
+    }
+    
+  
+
+    
+    
+    
+    
+    /*Navigation*/
+    
+    nav { position: static; width: auto; padding: 20px 15px; background-color: deepskyblue;}
+    
+    nav ul,
+    nav ul ul,
+    nav ul ul ul { display: block; position: static;}
+    
+    nav > ul { padding:0; }
+    nav > ul >li { float: none; margin-top: 25px;}
+    
+    nav ul li:hover { background: none;}
+    
+    nav ul li a { 
+        width: auto;
+        display: block;
+        margin: 8px 10px;
+        padding: 8px 15px;
+        border: 1px solid rgba(255,255,255,.25);
+    }
+    
+    nav ul li a:hover {background-color: lightgray;}
+    
+    nav ul ul { background: none;}
+    
+    nav ul ul ul li a { margin-left: 30px;}
+    nav ul ul ul li a { margin-left: 60px;}
+    
+    nav a[aria-haspopup="true"]::after { display: none;}
+    
+    /* Footer */
+    
+    footer div.content {display: block; margin-top: 15px;}
+    
+    footer div.content a {margin: 0 20px 0 0;}
+}
+    
+
+
+    
+@media screen and (max-width: 425px) {
+    
+    /*Header*/
+	header {height: 100px;}
+    
+	header a.LOGO {height: 36px;}
+  
+  
+        section.main aside { width: 100%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+
+
+    /*Section-BLOCK4*/
+section.BLOCK4 aside div.content { padding: 140px 20px 20px 0px;}
+    
+section.BLOCK4 aside div.content img { width: auto; height: 100px; top: 30px}   
+    
+
+    
+    
+    /*Footer*/
+ 
+    footer::after { content:''; display: block; clear: both;}
+    
+    footer div.content a { 
+        display: inline-block; margin: 0 0 10px 0;
+        float: left;
+        clear: both;
+    }
+
+    
+    
+    
+    
+}
+    
+  
+
+
+
+
+
+
+@media screen and  (max-width: 760px){
+
+    h2 { font-size: 1.4em; }
+    h3 { font-size: 1.1em; }
+    a.btn {font-size: 1em; }
+    
+    
+    /* Header */
+    
+    header a.lOGO { width: 145px; height: 60px;}
+   
+    
+    /* Section - Main */
+
+        section.main aside { width: 100%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    /* Section - BLOCK4*/
+    
+    section.BLOCK4 aside div.content img { width: 85%;}
+    
+    
+    /* Navigation*/
+    nav { padding-top: 80px; }
+    nav > ul { padding-left: 10px;}
+}
+
+
+
+
+
+@media screen and  (max-width: 625px){
+  
+    h3 {margin-bottom: 0px;}
+    a.btn { font-size: .9em;}
+
+    /* Header */ 
+	header { height: 160px;}
+    header a.LOGO{
+        width: 70%; height: 66px;
+        left: 0px; top: 0px;
+        background-color: black;
+        background-size: 112px 46px;
+        background-position: 20px center;
+    }
+    
+  
+    
+    /* Section - Main */
+    section.main aside { width: 100%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    
+    
+    
+	
+	    
+    /* Section - Main */
+    section.main aside { width: 30%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+	
+	
+    /* Section - BLOCK4 */
+    
+    section.BLOCK4 aside { width: 100%; float: none; margin: 0; position: relative;}
+    
+    section.BLOCK4 aside div.content { padding: 20px 20px 20px 150px;}
+    
+    section.BLOCK4 aside div.content p { font-size: .9em;}
+    
+    section.BLOCK4 aside div.content img {
+        display: inline-block;
+        width: 125px;
+        position: absolute;
+        top: 30px; left: 0px;
+    }
+
+    
+    /* Navigation*/
+    
+    nav { position: static; width: auto; padding: 20px 15px; background-color: black;}
+    
+    nav ul,
+    nav ul ul,
+    nav ul ul ul { display: block; position: static;}
+    
+    nav > ul { padding:0;}
+    nav > ul >li { float: none; margin-top: 25px;}
+    
+    nav ul li:hover { background: none;}
+    
+    nav ul li a { 
+        width: auto;
+        display: block;
+        margin: 8px 10px;
+        padding: 8px 15px;
+        border: 1px solid darkgray;
+    }
+    
+    nav ul li a:hover {background-color: lightgray;}
+    
+    nav ul ul { background: none; }
+    
+    nav ul ul ul li a { margin-left: 30px;}
+    nav ul ul ul li a { margin-left: 60px;}
+    
+    nav a[aria-haspopup="true"]::after { display: none;}
+    
+    /* Footer */
+    
+    footer div.content {display: block; margin-top: 15px;}
+    
+    footer div.content a {margin: 0 20px 0 0;}
+}
+    
+    
+
+
+@media screen and (max-width: 425px) {
+    
+    /* Header */
+	header {height:auto}
+
+
+     header a.lOGO { background-color: black; font-size: 4em; width: 70px; height: 70px;}
+   
+    
+    section.main aside { width: 30%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 50px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+
+    /* Section - BLOCK4 */
+section.BLOCK4 aside div.content { padding: 140px 20px 20px 0px;}
+    
+section.BLOCK4 aside div.content img { width: auto; height: 100px; top: 30px;}   
+    
+
+    
+    
+    /* Footer */
+ 
+    footer::after { content:''; display: block; clear: both;}
+    
+    footer div.content a { 
+        display: inline-block; margin: 0 0 10px 0;
+        float: left;
+        clear: both;
+    }
+
+    
+    
+    
+    
+}
+    
+

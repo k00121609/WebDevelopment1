@@ -1,0 +1,176 @@
+/* remove codrops styles and reset the whole thing */
+#container_demo{
+	 text-align: left;
+	 margin: 0;
+	 padding: 0;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+
+}
+
+
+a.hiddenanchor{
+	display: none;
+}
+
+/** The wrapper that will contain our two forms **/
+#wrapper{
+	width: 60%;
+	right: 0px;
+	min-height: 560px;	
+	margin: 0px auto;	
+	width: 800px;
+	position: relative;	
+
+}
+
+
+
+
+
+
+/**** general text styling ****/
+#wrapper{height: 600px;}
+
+
+#wrapper a{
+	color: purple;
+	text-decoration: none;
+}
+
+#wrapper h1{
+	font-size: 30px;
+	font-family: sans-serif
+	color: black;
+	padding: 2px 0 10px 0;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+
+#wrapper p{
+	margin-bottom:15px;
+}
+
+#wrapper label{
+	color: black;
+	font-weight: 700;
+	position: relative;
+}
+
+
+
+/* all the input except submit and checkbox */
+
+#wrapper input:not([type="checkbox"]){
+	width: 92%;
+	margin-top: 4px;
+	padding: 10px 5px 10px 32px;	
+	border: 5px solid lightblue;
+
+}
+/*styling both submit buttons */
+
+#wrapper p.button input{
+	width: 30%;
+	cursor: pointer;	
+	background-color: dodgerblue;
+	padding: 8px 5px;
+	
+	color: black;
+	font-size: 18px;	
+	border: 5px solid lightblue;	
+	margin-bottom: 10px;	
+	text-shadow: gray;
+
+}
+#wrapper p.button input:hover{
+	background: gray;
+}
+
+p.login.button,
+p.signin.button{
+	text-align: right;
+	margin: 5px 0;
+}
+
+
+/* styling the checkbox "keep me logged in"*/
+.keeplogin{
+	margin-top: -5px;
+}
+.keeplogin input,
+.keeplogin label{
+	display: inline-block;
+	font-family:sans-serif;
+	font-size: 14px;	
+
+}
+.keeplogin input#loginkeeping{
+	margin-right: 3px;
+}
+.keeplogin label{
+	width: 80%;
+}
+
+
+/*styling the links to change from one form to another */
+
+
+#wrapper p.change_link a:hover {
+	color:dodgerblue;
+}
+
+/** Styling both forms **/
+#register, 
+#login{
+	position: absolute;
+	top: 0px;
+	width: 80%;	
+	padding: 30px 30px 30px 30px;
+	background: lightblue;
+	border: 5px solid gray;
+	
+}
+
+
+#toregister:target ~ #wrapper #register,
+#tologin:target ~ #wrapper #login{
+	z-index: 22;	
+}
+#toregister:target ~ #wrapper #login,
+#tologin:target ~ #wrapper #register{
+	-webkit-animation-name: fadeOutLeft;
+	-moz-animation-name: fadeOutLeft;
+	-ms-animation-name: fadeOutLeft;
+	-o-animation-name: fadeOutLeft;
+	animation-name: fadeOutLeft;
+}
+
+/** the actual animation, credit where due : http://daneden.me/animate/ ***/
+
+.animate{
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	
+	-moz-animation-duration: 0.5s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	
+	-o-animation-duration: 0.5s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
+	
+	-ms-animation-duration: 0.5s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+
+
+

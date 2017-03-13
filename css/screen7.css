@@ -1,0 +1,891 @@
+
+
+body{
+   font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 250; color: black;}
+
+#page { background-color: lightgoldenrodyellow; max-width: 1200px; margin: 0 auto; position: relative;}
+
+/*Text*/
+
+/*h1 { color: red; margin: 0 0 1em 0; font-size:3.0em; font-weight: 620; color: black;}*/
+h2 { color: green; font-size:1.4em; font-weight: 620;}
+h3 { color: black; font-size:1.3em; font-weight: 620; margin: 0 0 0.5em 0;}
+h4 { color: black;  font-size:1em; font-weight: 620;}
+h5 { color: pink;  font-size:1em; font-weight: 620;}
+
+p {color:black;}
+a { color:black; padding-left: 30px 40px 30px 40px;}
+a:visited { color:none;}
+
+
+a.btn {color:black; font-size: 1.2em; font-weight: 700; text-decoration: none; border: 2px solid blue; padding: 6px 20px 6px 20px; background-color: lightcoral;}
+a.btn:hover { background-color: white; text-decoration: underline;}
+
+/*Header*/
+
+header { height:150px; background-color: black; min-width: 380px; position: relative;}
+
+header a.LOGO {color: white; font-size: 5em; padding: 20px 0px 0px 20px; width: 800px; height: 100px; text-decoration: none; display: block; position: absolute;}
+
+
+header .loginIn { left: 75%; max-width: 20%; font-size: 1.2em; padding: 50px 20px 0px 0px;  position: relative;}
+
+
+
+header .lottoimg {z-index: 3; padding: 0px 0px 0px 30px; background: no-repeat left top; position: relative;}
+
+header .intro {font-size: 2em; margin: -330px 0px 0px 250px; position: relative;}
+
+header .star { padding: 0px 20px 0px 0px; background: url(../images/4images.jpg) no-repeat 0px 0px; min-height:200px; position: relative;}
+
+header div.searchbar {float:right; padding-right: 30px; padding-top: 85px;}
+/*Section All*/
+
+
+section { padding: 0px 0px 0px 0px;}
+section::after { iframe:''; display: block; clear: both;}
+section::after { art1:''; display: block; clear: both;}
+section::after { content:''; display: block; clear: both;}
+
+
+
+/*Section Main*/
+section.main {background-color: beige; height: 300px; margin: 350px 0px 30px 0px; padding: 20px 0px 0px 0px; min-width: 380px; position: relative;}
+
+section.main aside { width: 33%; float: right; text-align: center;}
+
+section.main aside .contentshoes { margin: 15px; background: no-repeat center top; background-size: 90px 90px; padding-top: 130px; }
+
+section.main aside .contentholiday { margin: 15px; background: no-repeat center top; background-size: 90px 90px; padding-top: 130px;}
+
+
+section.main aside .contentwatch { margin: 15px; background: no-repeat center top; background-size: 90px 90px; padding-top: 130px; }
+
+section.main aside h3 a {color: black; text-decoration: none;}
+section.main aside h3 a:hover {text-decoration: underline;}
+section.main aside .contentshoes{background-image: url(../images/Shoes_3.png);}
+section.main aside .contentholiday{background-image: url(../images/Table%20and%20view.PNG);}
+section.main aside .contentwatch{background-image: url(../images/Vintage%20pink%20Rolex.PNG);}
+
+
+
+
+/*Section-BLOCK3_1*/
+
+section.BLOCK3_1 {background-color: beige; padding: 40px 30px 40px 30px; min-width: 380px; }
+
+
+section.BLOCK3_1 aside article .img1 {  width: 55%;  float: right; background: url(../images/Euromill3_1.jpg) no-repeat 0px 5px; min-height:300px; width: 380px;position: relative; }
+
+section.BLOCK3_1 aside article .art h2 { color: green; text-decoration: none;}
+section.BLOCK3_1 aside article .art h4 { color: black; text-decoration: none;}
+section.BLOCK3_1 aside article .art p { color: black; text-decoration: none; float:clear;}
+
+
+
+/*new form css*/
+
+#subscribe, 
+#login{
+	position: absolute;
+	top: 0px;
+	width: 88%;	
+	padding: 18px 6% 60px 6%;
+	margin: 0 0 35px 0;
+	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	box-shadow:	
+		0pt 2px 5px rgba(105, 108, 109,  0.7),	
+		0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	border-radius: 5px;
+}
+#login{
+	z-index: 22;
+}
+
+/**** form  general text styling ****/
+#wrapper h1{
+	font-size: 48px;
+	color: rgb(6, 106, 117);
+	padding: 2px 0 10px 0;
+	font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+/** For the moment only webkit supports the background-clip:text; */
+#wrapper h1{
+	background: 
+	-webkit-repeating-linear-gradient(-45deg, 
+		rgb(18, 83, 93) , 
+		rgb(18, 83, 93) 20px,
+		rgb(64, 111, 118) 20px,
+		rgb(64, 111, 118) 40px,
+		rgb(18, 83, 93) 40px);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+#wrapper h1:after{
+	content:' ';
+	display:block;
+	width:100%;
+	height:2px;
+	margin-top:10px;
+	background: 
+		linear-gradient(left,  
+			rgba(147,184,189,0) 0%,
+			rgba(147,184,189,0.8) 20%,
+			rgba(147,184,189,1) 53%,
+			rgba(147,184,189,0.8) 79%,
+			rgba(147,184,189,0) 100%); 
+}
+
+/**** advanced input styling ****/
+/* placeholder */
+::-webkit-input-placeholder  { 
+	color: rgb(190, 188, 188); 
+	font-style: italic;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder{ 
+	color: rgb(190, 188, 188);
+	font-style: italic;
+} 
+input {
+  outline: none;
+}
+
+
+/* all the input except submit and checkbox */
+#wrapper input:not([type="checkbox"]){
+	width: 92%;
+	margin-top: 4px;
+	padding: 10px 5px 10px 32px;	
+	border: 1px solid rgb(178, 178, 178);
+	box-sizing : content-box;
+	border-radius: 3px;
+	box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	transition: all 0.2s linear;
+}
+#wrapper input:not([type="checkbox"]):active,
+#wrapper input:not([type="checkbox"]):focus{
+	border: 1px solid rgba(91, 90, 90, 0.7);
+	background: rgba(238, 236, 240, 0.2);	
+	box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+} 
+
+
+@font-face {
+    font-family: 'FontomasCustomRegular';
+    src: url('fonts/fontomas-webfont.eot');
+    src: url('fonts/fontomas-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fontomas-webfont.woff') format('woff'),
+         url('fonts/fontomas-webfont.ttf') format('truetype'),
+         url('fonts/fontomas-webfont.svg#FontomasCustomRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** the magic icon trick ! **/
+[data-icon]:after {
+    content: attr(data-icon);
+    font-family: 'FontomasCustomRegular';
+    color: rgb(106, 159, 171);
+    position: absolute;
+    left: 10px;
+    top: 35px;
+	width: 30px;
+}
+
+/*styling both submit buttons */
+#wrapper p.button input{
+	width: 30%;
+	cursor: pointer;	
+	background: rgb(61, 157, 179);
+	padding: 8px 5px;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	color: #fff;
+	font-size: 24px;	
+	border: 1px solid rgb(28, 108, 122);	
+	margin-bottom: 10px;	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	border-radius: 3px;	
+	box-shadow:
+		0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+		0px 0px 0px 3px rgb(254, 254, 254),
+		0px 5px 3px 3px rgb(210, 210, 210);
+	transition: all 0.2s linear;
+}
+#wrapper p.button input:hover{
+	background: rgb(74, 179, 198);
+}
+#wrapper p.button input:active,
+#wrapper p.button input:focus{
+	background: rgb(40, 137, 154);
+	position: relative;
+	top: 1px;
+	border: 1px solid rgb(12, 76, 87);	
+	box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+}
+p.login.button,
+p.signin.button{
+	text-align: right;
+	margin: 5px 0;
+}
+
+
+/* styling the checkbox "keep me logged in"*/
+.keeplogin{
+	margin-top: -5px;
+}
+.keeplogin input,
+.keeplogin label{
+	display: inline-block;
+	font-size: 12px;	
+	font-style: italic;
+}
+.keeplogin input#loginkeeping{
+	margin-right: 5px;
+}
+.keeplogin label{
+	width: 80%;
+}
+
+
+p.change_link{
+	position: absolute;
+	color: rgb(127, 124, 124);
+	left: 0px;
+	height: 20px;
+	width: 440px;
+	padding: 17px 30px 20px 30px;
+	font-size: 16px	;
+	text-align: right;
+	border-top: 1px solid rgb(219, 229, 232);
+	border-radius: 0 0  5px 5px;
+	background: rgb(225, 234, 235);
+	background: repeating-linear-gradient(-45deg, 
+	rgb(247, 247, 247) , 
+	rgb(247, 247, 247) 15px, 
+	rgb(225, 234, 235) 15px, 
+	rgb(225, 234, 235) 30px, 
+	rgb(247, 247, 247) 30px
+	);
+}
+#wrapper p.change_link a {
+	display: inline-block;
+	font-weight: bold;
+	background: rgb(247, 248, 241);
+	padding: 2px 6px;
+	color: rgb(29, 162, 193);
+	margin-left: 10px;
+	text-decoration: none;
+	border-radius: 4px;
+	border: 1px solid rgb(203, 213, 214);
+	transition: all 0.4s  linear;
+}
+#wrapper p.change_link a:hover {
+	color: rgb(57, 191, 215);
+	background: rgb(247, 247, 247);
+	border: 1px solid rgb(74, 179, 198);
+}
+#wrapper p.change_link a:active{
+	position: relative;
+	top: 1px;
+}
+
+/*
+#register{	
+	z-index: 21;
+	opacity: 0;
+}
+
+#toregister:target ~ #wrapper #register,
+#tologin:target ~ #wrapper #login{
+	z-index: 22;
+	animation-name: fadeInLeft;
+	animation-delay: .1s;
+}
+
+
+.animate{
+	animation-duration: 0.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+#toregister:target ~ #wrapper #login,
+#tologin:target ~ #wrapper #register{
+	animation-name: fadeOutLeftBig;
+}
+
+@keyframes fadeOutLeft {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	
+	100% {
+		opacity: 0;
+		transform: translateX(-20px);
+	}
+}*?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Section-BLOCK4*/
+
+section.BLOCK4 { background-color: beige; padding: 20px 30px 40px 50px; min-width: 380px; position: relative;}
+section.BLOCK4 aside { width: 19%; float: right;}
+section.BLOCK4 aside .content { padding: 30px 20px 30px 20px;}
+section.BLOCK4 aside .content img { display: block; width: 72%;}
+section.BLOCK4 aside .content h4 {color: black; font-weight: 700;}
+section.BLOCK4 aside .content a { display: inline-block; color: lightcoral; font-weight:700;}
+
+
+   /*Navigation1*/
+
+nav {
+	margin-top: 300px;
+	font-size: 1.3em;
+    background-color: none;
+    position: absolute;
+    top: 0px; left: 0px;
+    padding: 50px 0 0 0;
+    width: 100%;
+}
+
+nav::after { content:''; display: block; clear: both;}
+
+nav ul { list-style: none; margin: 0; padding: 0px; }
+
+nav ul li:hover { background-color: black}
+nav ul li:hover > ul { display: block;}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+    position: relative;
+}
+
+nav ul li a:visited { color: white;}
+
+nav ul li a:hover { background-color: blue;}
+
+nav ul ul { position: absolute; top: 100%; background-color: black; display: none; }
+
+nav ul ul li { position: relative;}
+
+nav ul ul ul {left: 100%; top: 0px; }
+
+
+
+
+
+/*Navigation 2 top-level*/
+/* top-level */
+nav > ul { padding-left: 200px; }
+nav > ul > li { float: left;  }
+nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px;}
+
+nav a[aria-haspopup="true"]::after {
+    content: '';
+    display: block; width: 0px; height: 0px;
+    position: absolute;
+    top: 16px; right: 15px; 
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #fff;
+}
+
+nav > ul > li > a[aria-haspopup="true"]::after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #fff;
+    left: 20px; right: auto;
+    bottom: 6px; top: auto;
+    
+}
+
+/* Footer */
+footer {font-size: .8em; marjin: 40px; color:lightgray; }
+footer .content { display:inline;}
+
+
+
+
+
+
+
+                                        /*Media Queries*/
+
+
+        /*media query 1 at 1200px*/
+
+@media screen and  (max-width:1200px){
+	
+	 section.BLOCK3_1 aside article { width: 100%;  text-align: left;}
+	
+	section.BLOCK3_1 aside article .img1{ width: 45%;  min-height:300px; width: 380px; padding: 30px 30px 30px 30px;}
+	<br>
+    section.BLOCK3_1 aside article p{ color: black; text-decoration: none; float: left; }
+	
+	
+	
+    
+	
+
+        /*media query 2 at 980px*/
+@media screen and  (max-width:1200px){
+	
+	header a.LOGO {font-size: 4em; height: 36px;}
+	
+	/*block3-1*/
+	 section.BLOCK3_1 aside article { width: 100%; float: none; text-align: left; }
+    
+    section.BLOCK3_1 aside article .img1 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 500px 356px;
+    }
+	
+	
+    
+  footer::after { content:''; display: block; clear: both;}
+	
+/*header*/
+
+@media screen and  (max-width: 760px){
+  
+    h2 { font-size: 1.4em; }
+    h3 { font-size: 1.1em; }
+    a.btn {font-size: 1em; }
+    section.atmosphere .iframe{ padding-right: 700px;} 
+    
+    /* Header */
+    
+    header a.lOGO { background-color: black; font-size: 4em; width: 145px; height: 60px; }
+	header .intro { font-size: 1.2em;}
+    header .loginIn { font-size: .7em; padding: 95px 30px 0px 0px;}
+	
+	header a.LOGO {font-size: 3em; height: 36px;}
+	
+    /* Section - Main */
+ section.main aside { width: 100%; float; none; text-align: left;}
+section.main aside .content { margin: 8px 20px 8px 0; padding: 5px 0px 10px 75px; background-size: 50px 50px; background-position: 20px 5px;}
+p{ font-size: .65em; padding: 0px 30px 0px 0px;}	
+
+	/*block3-1*/
+	 section.BLOCK3_1 aside article { width: 100%; float; none; text-align: left; }
+    
+  
+    
+    
+    /* Section - Block4*/
+    
+    section.BLOCK4 aside div.content img {width: 85%;}
+    
+    
+    /* Navigation*/
+    nav {padding-top: 80px;}
+    nav > ul {padding-left: 10px;}
+}
+
+
+
+
+@media screen and (max-width: 625px){
+
+    h3 {margin-bottom: 0px; }
+    a.btn { font-size: .9em; }
+
+    /* Header */ 
+   
+
+    
+	header a.LOGO {font-size: 3em; height: 36px;}
+     
+
+
+    
+    /*Section-Main*/
+    section.main aside { width: 100%; float; none; text-align: left; }
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    p{ font-size: .55em; padding: 0px 30px 0px 0px;}
+	
+		
+	/*Block3_1*/
+	 section.BLOCK3_1 aside article { width: 100%; float; none; text-align: left;}
+    
+    section.BLOCK3_1 aside article .art1 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    
+	
+       /*Section-Athmosphere*/
+    
+
+	
+	    section.main aside { width: 100%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+	
+	/*Block3_1*/
+	 section.BLOCK3_1 aside article { width: 100%; float; none; text-align: left;}
+    
+    section.BLOCK3_1 aside article .art1 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    
+    /*Section-Block4*/
+    
+    section.BLOCK4 aside { width: 100%; float: none; margin: 0; position: relative;}
+    { padding: 20px 20px 20px 150px; }
+    
+    section.BLOCK4 aside div.content p { font-size: .9em;}
+    
+    section.BLOCK4 aside div.content img {
+        display: inline-block;
+        width: 125px;
+        position: absolute;
+        top: 30px; left: 0px;
+    }
+    
+  
+
+    
+    
+    
+    
+    /*Navigation*/
+    
+    nav { position: static; width: auto; padding: 20px 15px; background-color: deepskyblue;}
+    
+    nav ul,
+    nav ul ul,
+    nav ul ul ul { display: block; position: static;}
+    
+    nav > ul { padding:0; }
+    nav > ul >li { float: none; margin-top: 25px;}
+    
+    nav ul li:hover { background: none;}
+    
+    nav ul li a { 
+        width: auto;
+        display: block;
+        margin: 8px 10px;
+        padding: 8px 15px;
+        border: 1px solid rgba(255,255,255,.25);
+    }
+    
+    nav ul li a:hover {background-color: lightgray;}
+    
+    nav ul ul { background: none;}
+    
+    nav ul ul ul li a { margin-left: 30px;}
+    nav ul ul ul li a { margin-left: 60px;}
+    
+    nav a[aria-haspopup="true"]::after { display: none;}
+    
+    /* Footer */
+    
+    footer div.content {display: block; margin-top: 15px;}
+    
+    footer div.content a {margin: 0 20px 0 0;}
+}
+    
+
+
+    
+@media screen and (max-width: 425px) {
+    
+    /*Header*/
+	header {height: 100px;}
+    
+	header a.LOGO {height: 36px;}
+  
+  
+        section.main aside { width: 100%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+
+
+    /*Section-BLOCK4*/
+section.BLOCK4 aside div.content { padding: 140px 20px 20px 0px;}
+    
+section.BLOCK4 aside div.content img { width: auto; height: 100px; top: 30px}   
+    
+
+    
+    
+    /*Footer*/
+ 
+    footer::after { content:''; display: block; clear: both;}
+    
+    footer div.content a { 
+        display: inline-block; margin: 0 0 10px 0;
+        float: left;
+        clear: both;
+    }
+
+    
+    
+    
+    
+}
+    
+  
+
+
+
+
+
+
+@media screen and  (max-width: 760px){
+
+    h2 { font-size: 1.4em; }
+    h3 { font-size: 1.1em; }
+    a.btn {font-size: 1em; }
+    
+    
+    /* Header */
+    
+    header a.lOGO { width: 145px; height: 60px;}
+   
+    
+    /* Section - Main */
+
+        section.main aside { width: 100%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    /* Section - BLOCK4*/
+    
+    section.BLOCK4 aside div.content img { width: 85%;}
+    
+    
+    /* Navigation*/
+    nav { padding-top: 80px; }
+    nav > ul { padding-left: 10px;}
+}
+
+
+
+
+
+@media screen and  (max-width: 625px){
+  
+    h3 {margin-bottom: 0px;}
+    a.btn { font-size: .9em;}
+
+    /* Header */ 
+	header { height: 160px;}
+    header a.LOGO{
+        width: 70%; height: 66px;
+        left: 0px; top: 0px;
+        background-color: black;
+        background-size: 112px 46px;
+        background-position: 20px center;
+    }
+    
+  
+    
+    /* Section - Main */
+    section.main aside { width: 100%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    
+    
+    
+	
+	    
+    /* Section - Main */
+    section.main aside { width: 30%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+	
+	
+    /* Section - BLOCK4 */
+    
+    section.BLOCK4 aside { width: 100%; float: none; margin: 0; position: relative;}
+    
+    section.BLOCK4 aside div.content { padding: 20px 20px 20px 150px;}
+    
+    section.BLOCK4 aside div.content p { font-size: .9em;}
+    
+    section.BLOCK4 aside div.content img {
+        display: inline-block;
+        width: 125px;
+        position: absolute;
+        top: 30px; left: 0px;
+    }
+
+    
+    /* Navigation*/
+    
+    nav { position: static; width: auto; padding: 20px 15px; background-color: black;}
+    
+    nav ul,
+    nav ul ul,
+    nav ul ul ul { display: block; position: static;}
+    
+    nav > ul { padding:0;}
+    nav > ul >li { float: none; margin-top: 25px;}
+    
+    nav ul li:hover { background: none;}
+    
+    nav ul li a { 
+        width: auto;
+        display: block;
+        margin: 8px 10px;
+        padding: 8px 15px;
+        border: 1px solid darkgray;
+    }
+    
+    nav ul li a:hover {background-color: lightgray;}
+    
+    nav ul ul { background: none; }
+    
+    nav ul ul ul li a { margin-left: 30px;}
+    nav ul ul ul li a { margin-left: 60px;}
+    
+    nav a[aria-haspopup="true"]::after { display: none;}
+    
+    /* Footer */
+    
+    footer div.content {display: block; margin-top: 15px;}
+    
+    footer div.content a {margin: 0 20px 0 0;}
+}
+    
+    
+
+
+@media screen and (max-width: 425px) {
+    
+    /* Header */
+	header {height:auto}
+
+
+     header a.lOGO { background-color: black; font-size: 4em; width: 70px; height: 70px;}
+   
+    
+    section.main aside { width: 30%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 50px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+
+    /* Section - BLOCK4 */
+section.BLOCK4 aside div.content { padding: 140px 20px 20px 0px;}
+    
+section.BLOCK4 aside div.content img { width: auto; height: 100px; top: 30px;}   
+    
+
+    
+    
+    /* Footer */
+ 
+    footer::after { content:''; display: block; clear: both;}
+    
+    footer div.content a { 
+        display: inline-block; margin: 0 0 10px 0;
+        float: left;
+        clear: both;
+    }
+
+    
+    
+    
+    
+}
+    
+
